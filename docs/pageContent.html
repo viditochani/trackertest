@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <body>
+    <section class="page-header">
+      <a href="https://github.com/projectsfrom2008/docs" class="btn">View on GitHub</a>
+      <a href="https://projectsfrom2008.github.io/docs/index.html" class="btn">Index</a>
+      <a href="https://projectsfrom2008.github.io/docs/page1.html" class="btn">Account-1 Small App Page 1</a>
+      <a href="https://projectsfrom2008.github.io/docs/page2.html" class="btn">Account-1 Small App Page 2</a>
+      <a href="https://projectsfrom2008.github.io/docs/page3.html" class="btn">Account-1 Medium App Page 3</a>
+      <a href="https://projectsfrom2008.github.io/docs/page4.html" class="btn">Account-1 Medium App Page 4</a>
+      <a href="https://projectsfrom2008.github.io/docs/page5.html" class="btn">Account-1 Large App Page 5</a>
+      <a href="https://projectsfrom2008.github.io/docs/page6.html" class="btn">Account-1 Large App Page 6</a>
+      <a href="https://projectsfrom2008.github.io/docs/page7.html" class="btn">Account-2 Small App Page 7</a>
+      <a href="https://projectsfrom2008.github.io/docs/page8.html" class="btn">Account-2 Small App Page 8</a>
+      <a href="https://projectsfrom2008.github.io/docs/page9.html" class="btn">Account-2 Medium App Page 9</a>
+      <a href="https://projectsfrom2008.github.io/docs/page10.html" class="btn">Account-2 Medium App Page 10</a>
+      <a href="https://projectsfrom2008.github.io/docs/page11.html" class="btn">Account-2 Large App Page 11</a>
+      <a href="https://projectsfrom2008.github.io/docs/page12.html" class="btn">Account-2 Large App Page 12</a>
+      <a href="https://projectsfrom2008.github.io/docs/march29-a.html" class="btn">March29-a</a>
+      <a href="https://projectsfrom2008.github.io/docs/march29-b.html" class="btn">March29-b</a>
+      <button style="font-size: x-large;padding: 5px;" onclick="jsError1()">Generate Common JS Error</button>
+      <button style="font-size: x-large;padding: 5px;" onclick="jsError2()">Generate Page Specific JS Error</button>
+      <button style="font-size: x-large;padding: 5px;" onclick="httpError()">Generate HTTP Error</button>
+    </section>
+    <section class="page-header">
+      <h1 class="project-name">11 Best Places to Visit in Scotland</h1>
+      <a href="page3.html" onclick="javascript:e.get()">Go to next page</a>
+      <h2 class="project-tagline"></h2>
+      <b>1. Edinburgh</b><br>
+      <img src="images/pic-1.jpg" width="500" height="500"/>
+      <br>
+      <b>2. Glasgow</b><br>
+      <img src="images/pic-2.jpg" width="500" height="500"/>
+      <br>
+      <b>3. Scottish Highlands</b><br>
+      <img src="images/pic-3.jpg" width="500" height="500"/>
+      <br>
+      <b>4. St. Andrews</b><br>
+      <img src="images/pic-4.jpg" width="500" height="500"/>
+      <br>
+      <b>7. Loch Lomond</b><br>
+      <img src="images/pic-7.jpg" width="500" height="500"/>
+      <br>
+    </section>
+    <script>
+		function jsError1() {
+			throw "JS Error 1";
+		}
+    function jsError2() {
+			throw "Page 2 page error";
+		}
+		function httpError() {
+			fetch("https://ww.nyksdfs.com");
+		}
+	</script>
+
+  </body>
+</html>
